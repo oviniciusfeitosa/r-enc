@@ -9,6 +9,7 @@ use Component\rightEncoding\RightEncoding;
 
 if (!function_exists('rEnc')) {
     function rEnc($inputString, $inputEncoding = 'UTF-8, ISO-8859-1', $outputEncoding = 'UTF-8') {
-        return new \Component\rightEncoding\RightEncoding($inputString, $inputEncoding, $outputEncoding);
+        $objRightEncoding = new \Component\rightEncoding\RightEncoding($inputString, $inputEncoding, $outputEncoding);
+        return $objRightEncoding->convert();
     }
 }

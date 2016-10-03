@@ -10,18 +10,24 @@ namespace Component\rightEncoding;
 
 class RightEncoding {
     
+    private $inputString;
+    private $inputEncoding;
+    private $outputEncoding;
+    
     public function __construct($inputString, $inputEncoding, $outputEncoding) {
-        $oldEncoding = $this->getOldEncoding($inputString, $inputEncoding);
-        return $this->convert($inputString, $oldEncoding, $outputEncoding);
+        $this->inputString = $inputString;
+        $this->inputEncoding = $inputEncoding;
+        $this->outputEncoding = $outputEncoding;   
     }
     
-    private function getOldEncoding($inputString, $inputEncoding) {
-        return mb_detect_encoding($inputString, $inputEncoding);
+    public function getOldEncoding() {
+        return mb_detect_encoding($this->inputString, $this->inputEncoding);
     }
     
-    private function convert($inputString, $oldEncoding, $outputEncoding) { 
+    public function convert() { 
         try {
-            return iconv($oldEncoding, $outputEncoding, $inputString);
+            $oldEncoding = $this->getOldEncoding();
+            return iconv($oldEncoding, $this->outputEncoding, $this->inputString);
         } catch (Exception $objException) {
             // @todo : implement here!
         }
