@@ -32,5 +32,9 @@ Use the "rEnc" function is so easy! Just like this:
 $newString = rEnc($oldString)
 ```
 
+## Example:
+
+
+
 I Hope you enjoy!
 :D
