@@ -1,4 +1,4 @@
-RightEncoding
+PHP RightEncoding
 =============
 
 ##About
@@ -34,7 +34,11 @@ $newString = rEnc($oldString)
 
 ## Example:
 
+Below we have an example of the file "example.php" executed.
 
+![alt !](https://github.com/vinnyfs89/rightEncoding/blob/master/example/files/screenshot.png)
+
+## Yeah!
 
 I Hope you enjoy!
 :D
