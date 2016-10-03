@@ -1,0 +1,4 @@
+<h3>[ ISO-8859-1 ]</h3>
+Mussum Ipsum, cacilds vidis litro abertis. Si num tem leite então bota uma pinga aí cumpadi! Pra lá , depois divoltis porris, paradis. Leite de capivaris, leite de mula manquis. Copo furadis é disculpa de bebadis, arcu quam euismod magna.
+<br />
+Test "ç": ç

@@ -1,0 +1,31 @@
+{
+  "name": "vinnyfs89/rightEncoding",
+  "type": "library",
+  "description": "Simple way to get the right encoding that you want in PHP codes.",
+  "keywords": ["rightEncoding", "php"],
+  "homepage": "http://viniciusfesil.com",
+  "authors": [
+    {
+      "name": "Vinícius Feitosa da Silva",
+      "email": "viniciusfesil@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Component\\rightEncoding\\": "src/Component/rightEncoding"
+    },
+    "files": [
+      "src/resources/functions/reFunction.php"
+    ],
+    "exclude-from-classmap": [
+      "/example/",
+      "/tests/"
+    ]
+  }
+}
