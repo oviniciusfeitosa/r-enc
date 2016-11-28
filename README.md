@@ -16,11 +16,11 @@ you may clone this project directly or set in your composer.json, like this:
   "repositories": [
     {
       "type": "vcs",
-      "url":  "https://github.com/vinnyfs89/rightEncoding"
+      "url":  "https://github.com/vinnyfs89/rEnc"
     }
   ],
   "require-dev": {
-    "vinnyfs89/rightEncoding": "dev-master"
+    "vinnyfs89/rEnc": "dev-master"
   },
 ```
 
