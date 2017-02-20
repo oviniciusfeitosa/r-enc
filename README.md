@@ -6,27 +6,21 @@ PHP RightEncoding
 
 The RightEncoding component provides a simple and effective way of convert your PHP strings to right encoding.
 
-The "rEnc" function represents the RightEncoding component. Using the function "rEnc" you can set the input string and this function will return the string converted for you. You also may set the input Charset and output charset when call the "rEnc" function.
+The "r-enc" function represents the RightEncoding component. Using the function "r-enc" you can set the input string and this function will return the string converted for you. You also may set the input Charset and output charset when call the "r-enc" function.
 
 ##Install
 
 you may clone this project directly or set in your composer.json, like this:
 
 ```json
-  "repositories": [
-    {
-      "type": "vcs",
-      "url":  "https://github.com/vinnyfs89/rEnc"
-    }
-  ],
   "require-dev": {
-    "vinnyfs89/rEnc": "dev-master"
+    "vinnyfs89/r-enc": "dev-master"
   },
 ```
 
 ##Usage
 
-Use the "rEnc" function is so easy! Just like this:
+Use the "r-enc" function is so easy! Just like this:
 
 ```php
 $newString = rEnc($oldString)
