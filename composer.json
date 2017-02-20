@@ -1,8 +1,8 @@
 {
-  "name": "vinnyfs89/rEnc",
+  "name": "vinnyfs89/r-enc",
   "type": "library",
   "description": "Simple way to get the right encoding that you want in PHP codes.",
-  "keywords": ["rightEncoding", "php", "rEnc"],
+  "keywords": ["rightEncoding", "php", "r-enc"],
   "homepage": "http://viniciusfesil.com",
   "authors": [
     {
@@ -13,6 +13,7 @@
   "require": {
     "php": ">=5.3"
   },
+  "minimum-stability": "dev",
   "require-dev": {
     "phpunit/phpunit": "*"
   },
